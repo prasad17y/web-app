@@ -1,0 +1,20 @@
+<html>
+    <body>
+    <button id = "button"> Get this List</button>
+    <div id="response"></div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#button').click(function() {
+            // run an AJAX get request to the route you setup above...
+            // respect the cross-domain policy by using the same domain
+            // you used to access your index.html file!
+            $.get('/request1', function(list) {
+                $('#response').html(JSON.stringify(list));
+                //alert(tab[0]); // show the list
+            });
+        });
+    });
+    </script>
+    </body
+</html>

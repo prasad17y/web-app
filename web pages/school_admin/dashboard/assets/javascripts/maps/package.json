@@ -1,0 +1,15 @@
+{
+  "name": "abc",
+  "version": "1.0.0",
+  "description": "abcd",
+  "main": "examples.gmap.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.1.10",
+    "node": "^11.2.0"
+  }
+}
